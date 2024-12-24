@@ -1,0 +1,40 @@
+
+Tạo một ứng dụng tính BMI:
+
+Nhập chiều cao (cm) và cân nặng (kg)
+Tính và hiển thị BMI
+Phân loại: gầy, bình thường, thừa cân
+
+
+Quản lý danh sách sinh viên:
+
+
+Lưu tên, tuổi, điểm TB
+Thêm/xóa sinh viên
+Sắp xếp theo điểm
+Lọc sinh viên đạt/không đạt (điểm >5)
+
+
+Xử lý chuỗi thông tin thẻ tín dụng:
+
+
+Nhập số thẻ 16 số
+Ẩn 12 số đầu thành *
+Kiểm tra tính hợp lệ của số thẻ
+
+
+Chuyển đổi tiền tệ:
+
+
+Tạo dictionary tỷ giá
+Hàm chuyển đổi giữa các loại tiền
+Xử lý lỗi khi không có tỷ giá
+
+
+Quản lý giỏ hàng:
+
+
+Thêm/xóa sản phẩm (tên, giá, số lượng)
+Tính tổng tiền
+Áp dụng mã giảm giá
+In hóa đơn chi tiết
