@@ -31,22 +31,22 @@
 
 #### Ngày 25/12/2024 (Thứ Tư) - Control Flow
 ##### Buổi Sáng (8:00 - 12:00)
-- [ ] Swift Control Flow
-  - [ ] If-else statements
-  - [ ] Switch statements
-  - [ ] Guard statements
-  - [ ] For-in loops
-  - [ ] While loops
-  - [ ] Repeat-while loops
+- [x] Swift Control Flow
+  - [x] If-else statements
+  - [x] Switch statements
+  - [x] Guard statements
+  - [x] For-in loops
+  - [x] While loops
+  - [x] Repeat-while loops
 
 ##### Buổi Chiều (13:00 - 17:00)
-- [ ] Kotlin Control Flow
-  - [ ] If-else expressions
-  - [ ] When expressions
-  - [ ] For loops
-  - [ ] While loops
-  - [ ] Do-while loops
-  - [ ] Ranges và progressions
+- [x] Kotlin Control Flow
+  - [x] If-else expressions
+  - [x] When expressions
+  - [x] For loops
+  - [x] While loops
+  - [x] Do-while loops
+  - [x] Ranges và progressions
 
 ##### Buổi Tối (19:00 - 21:00)
 - [ ] Mini Project: Number Game
@@ -54,20 +54,20 @@
 
 #### Ngày 26/12/2024 (Thứ Năm) - Functions
 ##### Buổi Sáng (8:00 - 12:00)
-- [ ] Swift Functions
-  - [ ] Function declaration
-  - [ ] Parameters và return types
-  - [ ] Default parameters
-  - [ ] Variadic parameters
-  - [ ] Inout parameters
+- [x] Swift Functions
+  - [x] Function declaration
+  - [x] Parameters và return types
+  - [x] Default parameters
+  - [x] Variadic parameters
+  - [x] Inout parameters
 
 ##### Buổi Chiều (13:00 - 17:00)
-- [ ] Kotlin Functions
-  - [ ] Function declaration
-  - [ ] Parameters và return types
-  - [ ] Default arguments
-  - [ ] Named arguments
-  - [ ] Single-expression functions
+- [x] Kotlin Functions
+  - [x] Function declaration
+  - [x] Parameters và return types
+  - [x] Default arguments
+  - [x] Named arguments
+  - [x] Single-expression functions
 
 ##### Buổi Tối (19:00 - 21:00)
 - [ ] Project: Calculator console app
