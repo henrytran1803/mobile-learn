@@ -70,31 +70,31 @@
   - [x] Single-expression functions
 
 ##### Buổi Tối (19:00 - 21:00)
-- [ ] Project: Calculator console app
-- [ ] Review và commit code
+- [x] Project: Calculator console app
+- [x] Review và commit code
 
 #### Ngày 27/12/2024 (Thứ Sáu) - Collections
 ##### Buổi Sáng (8:00 - 12:00)
-- [ ] Swift Collections
-  - [ ] Arrays
-  - [ ] Dictionaries
-  - [ ] Sets
-  - [ ] Collection operations
+- [x] Swift Collections
+  - [x] Arrays
+  - [x] Dictionaries
+  - [x] Sets
+  - [x] Collection operations
 
 ##### Buổi Chiều (13:00 - 17:00)
-- [ ] Kotlin Collections
-  - [ ] Lists
-  - [ ] Maps
-  - [ ] Sets
-  - [ ] Collection operations
+- [x] Kotlin Collections
+  - [x] Lists
+  - [x] Maps
+  - [x] Sets
+  - [x] Collection operations
 
 ##### Buổi Tối (19:00 - 21:00)
-- [ ] Project: Contact List console app
-- [ ] Review và commit code
+- [x] Project: Contact List console app
+- [x] Review và commit code
 
 #### Ngày 28/12/2024 (Thứ Bảy) - Error Handling
 ##### Buổi Sáng (8:00 - 12:00)
-- [ ] Swift Error Handling
+- [x] Swift Error Handling
   - [ ] Error protocol
   - [ ] Throwing functions
   - [ ] Do-catch statements
