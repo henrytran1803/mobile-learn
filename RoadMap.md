@@ -49,8 +49,8 @@
   - [x] Ranges và progressions
 
 ##### Buổi Tối (19:00 - 21:00)
-- [ ] Mini Project: Number Game
-- [ ] Review và commit code
+- [x] Mini Project: Number Game
+- [x] Review và commit code
 
 #### Ngày 26/12/2024 (Thứ Năm) - Functions
 ##### Buổi Sáng (8:00 - 12:00)
@@ -95,23 +95,23 @@
 #### Ngày 28/12/2024 (Thứ Bảy) - Error Handling
 ##### Buổi Sáng (8:00 - 12:00)
 - [x] Swift Error Handling
-  - [ ] Error protocol
-  - [ ] Throwing functions
-  - [ ] Do-catch statements
-  - [ ] Try, try?, try!
-  - [ ] Defer statements
+  - [x] Error protocol
+  - [x] Throwing functions
+  - [x] Do-catch statements
+  - [x] Try, try?, try!
+  - [x] Defer statements
 
 ##### Buổi Chiều (13:00 - 17:00)
-- [ ] Kotlin Error Handling
-  - [ ] Exceptions
-  - [ ] Try-catch blocks
-  - [ ] Throw keyword
-  - [ ] Finally blocks
-  - [ ] Custom exceptions
+- [x] Kotlin Error Handling
+  - [x] Exceptions
+  - [x] Try-catch blocks
+  - [x] Throw keyword
+  - [x] Finally blocks
+  - [x] Custom exceptions
 
 ##### Buổi Tối (19:00 - 21:00)
-- [ ] Project: File Processing app
-- [ ] Review và commit code
+- [x] Project: File Processing app
+- [x] Review và commit code
 
 #### Ngày 29/12/2024 (Chủ Nhật) - Project Day
 ##### Buổi Sáng (8:00 - 12:00)
