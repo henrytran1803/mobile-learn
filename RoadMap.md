@@ -1,174 +1,363 @@
-# **iOS Development Roadmap & Project Guide 2025**
+# iOS Career Roadmap: Junior đến Senior (3-4 năm)
 
-## **I. Lộ Trình Học Tập**
+## I. Junior Level (0-12 tháng)
 
-### **Giai đoạn 1: Nền tảng (3-4 tháng)**
+### 1. Swift Fundamentals
+- Kiến thức:
+  - Biến, hằng, kiểu dữ liệu
+  - Control flow
+  - Functions & Closures
+  - OOP (Class, Struct)
+  - Optional & Error handling
+  - Memory management (ARC)
+  - Protocol & Extensions
+  - Generics cơ bản
 
-#### **1. Swift Fundamentals**
-- **Nội dung học**:
-  - Biến, hằng, kiểu dữ liệu (Int, String, Array, Dictionary).
-  - Câu lệnh điều kiện: `if/else`, `switch`, `guard`.
-  - Hàm và Closures.
-  - Optional & Error Handling.
-  - OOP (Class, Struct, Protocol).
-  - Quản lý bộ nhớ (ARC - Automatic Reference Counting).
+### 2. UIKit Core 
+- View & Controllers:
+  - UIViewController lifecycle
+  - Auto Layout
+  - UITableView/CollectionView
+  - Navigation patterns
+  - Custom views
+  - Gesture recognizers
 
-- **Project 1: Todo List App**
-  - Mô tả:
-    - Danh sách việc cần làm với CRUD (Create, Read, Update, Delete).
-    - Lưu trữ bằng `UserDefaults`.
-    - Hiển thị tasks bằng `UITableView`.
-    - Sử dụng Delegate Pattern để quản lý sự kiện.
-    - Thiết kế giao diện cơ bản với Auto Layout.
+### 3. Data & Storage
+- Local:
+  - UserDefaults
+  - CoreData basics
+  - FileManager
+- Networking:
+  - URLSession
+  - REST APIs
+  - JSON parsing
+  - Basic authentication
+  - Error handling
 
-#### **2. Development Tools**
-- **Nội dung học**:
-  - Làm quen với Xcode.
-  - Sử dụng Interface Builder.
-  - Git cơ bản (commit, branch, pull, merge).
-  - Cài đặt thư viện với CocoaPods hoặc Swift Package Manager (SPM).
-  - Debugging và sử dụng Breakpoints.
+### 4. Tools & Practices
+- Xcode basics
+- Git fundamentals
+- CocoaPods/SPM
+- Basic debugging
+- Code organization
 
-- **Project 2: Weather App**
-  - Mô tả:
-    - Tích hợp API thời tiết (ví dụ: OpenWeatherMap API).
-    - Sử dụng `URLSession` để tải dữ liệu JSON.
-    - Hiển thị thông tin thời tiết hiện tại dựa trên vị trí của người dùng (Core Location).
-    - Giao diện đẹp với các thành phần tuỳ chỉnh.
+## II. Mid Level (12-24 tháng)
 
----
+### 1. Advanced Swift
+- Protocol-Oriented Programming
+- Advanced Generics
+- Memory management deep dive
+- Concurrency patterns
+- Custom operators
+- Property wrappers
 
-### **Giai đoạn 2: UIKit & Dữ liệu (4-5 tháng)**
+### 2. Architecture
+- Design Patterns:
+  - MVVM
+  - Clean Architecture
+  - Coordinator
+  - Repository
+  - Factory
+  - Observer
+  - Singleton
+- SOLID principles
+- Dependency Injection
+- Clean Code practices
 
-#### **1. UIKit Deep Dive**
-- **Nội dung học**:
-  - Lifecycle của View Controller.
-  - Auto Layout nâng cao (Constraints).
-  - Sử dụng `UITableView` và `UICollectionView`.
-  - Tích hợp Navigation Controller và Tab Bar Controller.
-  - Tạo các thành phần giao diện tuỳ chỉnh.
+### 3. Testing
+- Unit Testing:
+  - XCTest
+  - Test doubles
+  - TDD basics
+  - Coverage
+- UI Testing:
+  - XCUITest
+  - Test automation
+  - CI integration
 
-- **Project 3: Notes App**
-  - Mô tả:
-    - Tạo ứng dụng ghi chú với khả năng lưu trữ bằng Core Data.
-    - Tìm kiếm ghi chú bằng Search Bar.
-    - Thêm tính năng phân loại ghi chú theo danh mục hoặc thẻ (tags).
-    - Cho phép xuất/nhập file ghi chú.
+### 4. Performance
+- Memory optimization
+- Instruments profiling
+- Network optimization
+- Image caching
+- Background tasks
+- Launch time optimization
 
-#### **2. Dữ liệu & Networking**
-- **Nội dung học**:
-  - Làm việc với Core Data nâng cao.
-  - Gọi REST API: GET, POST, DELETE.
-  - Authentication: API Key, OAuth.
-  - Lưu trữ dữ liệu offline.
-  - Xử lý lỗi và retry.
+### 5. Modern iOS
+- SwiftUI basics
+- Combine framework
+- Modern UIKit patterns
+- Async/await
 
-- **Project 4: Chat App**
-  - Mô tả:
-    - Sử dụng Firebase để xây dựng ứng dụng nhắn tin thời gian thực.
-    - Hiển thị danh sách chat với hình ảnh và tên người dùng.
-    - Gửi tin nhắn văn bản, hình ảnh.
-    - Xử lý thông báo đẩy (Push Notifications).
+## III. Senior Level (24+ tháng)
 
----
+### 1. System Architecture
+- Large-scale app architecture
+- Modular design
+- Microservices integration
+- Cross-platform architecture
+- SDK development
+- Framework design
 
-### **Giai đoạn 3: Kiến trúc (3-4 tháng)**
+### 2. Advanced iOS
+- SwiftUI advanced
+- Custom frameworks
+- App security:
+  - Encryption
+  - Keychain
+  - SSL pinning
+  - Jailbreak detection
+- Push notifications
+- Background processing
+- Deep linking
+- Universal links
 
-#### **1. Design Patterns**
-- **Nội dung học**:
-  - MVC, MVVM, Clean Architecture.
-  - Dependency Injection (DI).
-  - Nguyên tắc SOLID.
-  - Các Design Patterns cơ bản như Singleton, Observer, Factory.
+### 3. Performance & Optimization
+- Advanced profiling
+- Memory graphs
+- Network stack optimization
+- Battery optimization
+- Size optimization
+- Crash reporting
+- Analytics integration
 
-- **Project 5: Social Media App**
-  - Mô tả:
-    - Tích hợp API của mạng xã hội (Facebook, Instagram).
-    - Hiển thị timeline, đăng bài viết, ảnh.
-    - Sử dụng MVVM để tổ chức mã.
-    - Thêm tính năng chia sẻ bài viết.
+### 4. Modern Technologies
+- AR/VR (ARKit)
+- Machine Learning (CoreML)
+- MapKit & Location Services
+- HealthKit integration
+- HomeKit
+- CloudKit
+- Widget development
 
-#### **2. Testing & CI/CD**
-- **Nội dung học**:
-  - Unit Testing với XCTest.
-  - UI Testing với XCUITest.
-  - Hiệu năng và profiling.
-  - Xây dựng CI/CD pipeline (GitHub Actions, Bitrise).
+### 5. Leadership Skills
+- Code review mastery
+- Technical documentation
+- Architecture decision records
+- Team mentoring
+- Project estimation
+- Risk management
+- Technical interviews
 
-- **Project 6: E-commerce App**
-  - Mô tả:
-    - Ứng dụng mua sắm trực tuyến với giỏ hàng.
-    - Tích hợp cổng thanh toán (Stripe, PayPal).
-    - Tối ưu hiệu suất tải dữ liệu.
-    - Bảo mật thông tin người dùng.
+### 6. Business & Product
+- App Store guidelines
+- Release management
+- A/B testing
+- Analytics & metrics
+- User feedback handling
+- Product lifecycle
+- Market analysis
 
----
+## IV. Continuous Growth
+- Open source contribution
+- Technical writing
+- Conference speaking
+- Community engagement
+- WWDC updates
+- iOS trends following
+- Design patterns evolution
+- New Apple frameworks
 
-### **Giai đoạn 4: Hiện đại hóa iOS (4-5 tháng)**
+## Projects Portfolio
+1. Junior:
+   - Todo App
+   - Weather App
+   - Notes App
 
-#### **1. SwiftUI**
-- **Nội dung học**:
-  - Làm quen với `@State`, `@Binding`, `@Environment`.
-  - Quản lý trạng thái với Combine.
-  - Tạo giao diện động, đẹp mắt.
-  - Kết hợp SwiftUI và UIKit.
+2. Mid:
+   - Social Media App
+   - E-commerce App
+   - Chat App
 
-- **Project 7: Task Manager**
-  - Mô tả:
-    - Ứng dụng quản lý công việc với giao diện hiện đại (SwiftUI).
-    - Đồng bộ dữ liệu qua iCloud.
-    - Thêm widget hiển thị task.
-    - Tích hợp chế độ tối (Dark Mode).
+3. Senior:
+   - Streaming Platform
+   - Enterprise Solutions
+   - Cross-platform SDK
+   - Production Apps
 
-#### **2. Các tính năng nâng cao**
-- **Nội dung học**:
-  - Notifications: Local & Push.
-  - Background tasks.
-  - Universal Links.
-  - Localization (đa ngôn ngữ).
+## Learning Resources
+1. Documentation:
+   - Apple Developer docs
+   - WWDC sessions
+   - Swift.org
 
-- **Project 8: Fitness App**
-  - Mô tả:
-    - Ứng dụng theo dõi sức khỏe tích hợp HealthKit.
-    - Xây dựng phiên bản Watch App.
-    - Biểu đồ và thống kê (Charts).
-    - Tự động đồng bộ dữ liệu.
+2. Courses:
+   - Stanford iOS
+   - Hacking with Swift
+   - Ray Wenderlich
 
----
+3. Books:
+   - Swift Programming
+   - Advanced iOS Architecture
+   - Clean Code
+   - Design Patterns
 
-### **Giai đoạn 5: Master (6+ tháng)**
+4. Community:
+   - Stack Overflow
+   - GitHub
+   - iOS Dev Weekly
+   - Medium publications
+# Junior Projects (0-12 tháng)
 
-#### **1. Chuyên môn hóa**
-- **Nội dung học**:
-  - Tối ưu hiệu suất ứng dụng (launch time, memory).
-  - Bảo mật ứng dụng (Keychain, Data Protection).
-  - Accessibility cho người dùng khuyết tật.
-  - AR/VR với ARKit.
-  - Machine Learning với Core ML.
+### 1. Todo List App
+- **Core Features:**
+  - CRUD tasks với CoreData
+  - Categories & priorities
+  - Due dates & reminders
+  - Search & filter
+  - LocalNotification
+- **Technical Focus:**
+  - UITableView
+  - CoreData basics
+  - UserDefaults
+  - Basic MVC
+  - Auto Layout
 
-- **Project 9: Streaming App**
-  - Mô tả:
-    - Ứng dụng xem video với tính năng tải offline.
-    - Tuỳ chỉnh trình phát video.
-    - DRM bảo vệ nội dung.
-    - Đồng bộ giữa các thiết bị.
+### 2. Weather App
+- **Core Features:**
+  - Weather API integration
+  - Location-based forecast
+  - 7-day prediction
+  - Weather maps
+  - Offline mode
+- **Technical Focus:**
+  - URLSession
+  - JSON parsing
+  - CoreLocation
+  - Error handling
+  - Cache management
 
-- **Project 10: Production App**
-  - Mô tả:
-    - Phát triển ứng dụng đầy đủ, triển khai lên App Store.
-    - Theo dõi người dùng qua Analytics.
-    - Xử lý phản hồi và bảo trì định kỳ.
+# Mid-Level Projects (12-24 tháng)
 
----
+### 1. Social Media App
+- **Core Features:**
+  - News feed
+  - Post creation (text/image)
+  - Real-time chat
+  - User profiles
+  - Push notifications
+- **Technical Focus:**
+  - MVVM Architecture
+  - Firebase integration
+  - Image caching
+  - Socket connection
+  - Unit testing
 
-## **II. Tài Nguyên Học Tập**
-- **Apple Documentation**: [developer.apple.com](https://developer.apple.com)
-- **WWDC videos**: Hội nghị của Apple.
-- **Hacking with Swift**: [hackingwithswift.com](https://www.hackingwithswift.com)
-- **Stanford iOS Course**: Trên YouTube và iTunes.
+### 2. E-commerce App
+- **Core Features:**
+  - Product catalog
+  - Shopping cart
+  - Payment integration
+  - Order tracking
+  - User reviews
+- **Technical Focus:**
+  - Clean Architecture
+  - Payment gateway
+  - Analytics
+  - Security
+  - Performance optimization
 
-## **III. Lời Khuyên**
-1. **Thực hành liên tục**: Luôn tạo dự án thực tế.
-2. **Đọc code người khác**: Tìm hiểu qua các mã nguồn mở trên GitHub.
-3. **Tham gia cộng đồng**: Hỏi đáp trên Stack Overflow, Reddit.
-4. **Học hỏi từ phản hồi**: Luôn cải thiện sản phẩm dựa trên phản hồi.
+# Senior Projects (24+ tháng)
+
+### 1. Video Streaming Platform
+- **Core Features:**
+  - Live streaming
+  - Video playback
+  - DRM protection
+  - Offline download
+  - Picture-in-Picture
+- **Technical Focus:**
+  - AVFoundation
+  - DRM implementation
+  - Background modes
+  - Memory optimization
+  - SDK development
+
+### 2. Enterprise Solution
+- **Core Features:**
+  - Multiple user roles
+  - Complex workflows
+  - Data synchronization
+  - Document management
+  - Analytics dashboard
+- **Technical Focus:**
+  - Multi-module architecture
+  - Core Data sync
+  - Custom frameworks
+  - Security protocols
+  - CI/CD pipeline
+
+### 3. Health & Fitness Platform
+- **Core Features:**
+  - Activity tracking
+  - Health data integration
+  - Social features
+  - Apple Watch app
+  - Widgets
+- **Technical Focus:**
+  - HealthKit
+  - WatchKit
+  - WidgetKit
+  - CoreML
+  - CloudKit sync
+
+Mỗi project đều cần:
+- Version control
+- Unit tests
+- UI tests
+- Documentation
+- Analytics
+- Error tracking
+
+### 4. Finance Management App (Senior)
+- **Features:**
+  - Portfolio tracking
+  - Real-time market data
+  - Custom alerts
+  - Transaction history
+  - Charts & analytics
+- **Technical:**
+  - WebSocket integration
+  - Complex calculations
+  - Data visualization
+  - Secure storage
+  - Background refresh
+
+### 5. Smart Home Control (Senior)
+- **Features:**
+  - Device control
+  - Automation rules
+  - Energy monitoring
+  - Voice commands
+  - Scene management
+- **Technical:**
+  - HomeKit
+  - Bluetooth/WiFi
+  - Background processing
+  - Local network
+  - State management
+
+### 6. AR Educational App (Senior)
+- **Features:**
+  - 3D models
+  - Interactive lessons
+  - Progress tracking
+  - Offline content
+  - Multi-user sessions
+- **Technical:**
+  - ARKit
+  - SceneKit
+  - MultiPeer connectivity
+  - Content management
+  - Performance optimization
+
+Mỗi project cần có:
+- Clean Architecture
+- CI/CD pipeline
+- Crash reporting
+- Analytics
+- App Store optimization
+- A/B testing
+- User feedback loop
+- Security audit
+- Performance monitoring
